@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1"
+    />
+    <title>Custom Patches and Wear.</title>
+    <link rel="shortcut icon" href="lib/images/favicon.png" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="lib/css/style.css" />
+    <link rel="stylesheet" href="lib/css/animate.html" />
+    <link rel="stylesheet" href="lib/css/fonts.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Pacifico"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,500,300italic,700,900,400italic,300,500italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="lib/js/jquery-1.11.1.min.js"></script>
+    <script src="lib/js/jquery-migrate-1.2.1.js"></script>
+  </head>
+
+  <body>
+    <video
+      src="./lib/images/videos/intro-video-part-two.mp4"
+      class="cover-background"
+      autoplay
+      muted
+      loop
+      preload="auto"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: cover;
+        filter: brightness(0.6) contrast(1.2);
+      "
+    ></video>
+
+    <div id="container">
+      <!--begin header_wrapper -->
+      <header id="header_wrapper">
+        <!--begin header -->
+        <div id="header" class="clearfix">
+          <!--begin logo -->
+          <a href="index.html" id="logo"
+            ><img src="lib/images/cover/logo.png" alt="logo"
+          /></a>
+          <!--end logo -->
+          <!--begin nav -->
+          <nav id="navigation" role="navigation">
+            <ul id="nav">
+              <li class="selected">
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About Us</a>
+              </li>
+              <li>
+                <a href="services.html">Services</a>
+              </li>
+              <li class="last">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!--end header_wrapper -->
+
+      <!--begin home section -->
+      <section id="home">
+        <div class="home_box">
+          <div class="home_social_info">
+            <img
+              src="lib/images/company-logo.png"
+              alt="Logo"
+              class="home_logo"
+            />
+            <!--end home_logo -->
+
+            <!--begin social icons -->
+            <ul class="social_icons">
+              <li>
+                <a href="#">
+                  <i class="icon icon-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/custompatchesandwear_llc?igsh=OWE1M2J3dnUzaHAw"
+                >
+                  <i class="icon icon-instagram"></i>
+                </a>
+              </li>
+            </ul>
+            <!--end social icons -->
+          </div>
+          <!--end home_social_info -->
+
+          <!--begin row -->
+          <div class="row">
+            <!--begin sevencol -->
+            <div class="sevencol">
+              <h2 class="home_title">CUSTOM PATCHES &amp; WEAR</h2>
+              <h2 style="color: goldenrod">
+                In the brand building Journey, the right connection are
+                everything...
+              </h2>
+              <h3 class="home_subtitle">
+                Where quality meets creativity, With over 750 thread colors and
+                a variety of base materials, our exceptional B2B services ensure
+                your patches and wear are as unique as your vision.
+              </h3>
+              <a href="#" class="button_green">Get Started Now</a>
+              <!-- <a href="#" class="button_transparent">Discover More</a> -->
+            </div>
+            <!--end sevencol -->
+
+            <!--begin fivecol -->
+            <div class="fivecol last">
+              <!--begin register_form_wrapper -->
+              <div class="register_form_wrapper">
+                <!--begin register_form -->
+                <div class="register_form">
+                  <h4 class="white">
+                    <span class="bold green"
+                      >Register today &amp; sales team will contact you</span
+                    >
+                    <span class="green bold">with best</span> business quote !
+                  </h4>
+
+                  <!--begin success message -->
+                  <p class="register_success_box" style="display: none">
+                    We received your message and you'll hear from us soon. Thank
+                    You!
+                  </p>
+                  <!--end success message -->
+
+                  <!--begin register form -->
+                  <form
+                    id="register-form"
+                    class="register"
+                    action="https://demo.epic-webdesign.com/tf-marketing/v3/register.php"
+                    method="post"
+                  >
+                    <input
+                      class="register-input white-input"
+                      type="text"
+                      required=""
+                      name="register_names"
+                      placeholder="Full Name"
+                    />
+                    <input
+                      class="register-input white-input"
+                      type="email"
+                      required=""
+                      name="register_email"
+                      placeholder="Email Adress"
+                    />
+                    <input
+                      class="register-input white-input"
+                      type="text"
+                      required=""
+                      name="register_phone"
+                      placeholder="Phone Number (Optional)"
+                    />
+                    <input
+                      type="submit"
+                      value="REGISTER"
+                      id="register-button"
+                      class="register-submit"
+                    />
+                  </form>
+                  <!--end register form -->
+                </div>
+                <!--end register_form -->
+              </div>
+              <!--end register_form_wrapper -->
+            </div>
+            <!--end fivecol -->
+          </div>
+          <!--end row -->
+        </div>
+        <!--end home_box -->
+      </section>
+      <!--end home section -->
+
+      <!--begin section_wrapper -->
+      <section class="section_wrapper">
+        <!--begin section_box -->
+        <div class="section_box">
+          <!--begin row -->
+          <div class="row">
+            <!--begin twelvecol -->
+            <div class="twelvecol align_center">
+              <h2 class="title left_fade">
+                Why to choose custome patches &amp; wear?
+              </h2>
+              <div class="separator_wrapper bounce_fade">
+                <div class="separator_first_circle">
+                  <div class="separator_second_circle"></div>
+                </div>
+              </div>
+              <h3 class="subtitle right_fade">
+                Choosing custom patches and wear means opting for quality,
+                variety, and a personalised touch. We are committed to making
+                your ideas &amp; brand come to life with our exceptional art and
+                extensive customisation options. Trust us to provide you with
+                patches and wear that not only meet but exceed your
+                expectations.
+              </h3>
+            </div>
+            <!--end twelvecol -->
+
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade">
+              <!-- <span class="circle_icons"
+                ><i
+                  class="icon icon-design-graphic-tablet-streamline-tablet"
+                ></i
+              ></span> -->
+              <h4>QUALITY PRODUCT</h4>
+              <p>
+                We deliver top-quality patches, manufactured precisely. Choose
+                from 750 colors for vibrant designs.
+              </p>
+            </div>
+            <!--end fourcol -->
+
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade">
+              <!-- <span class="circle_icons"
+                ><i class="icon icon-design-pencil-rule-streamline"></i
+              ></span> -->
+              <h4>EXTENSIVE CUSTOMISATION OPTIONS</h4>
+              <p>
+                Our patches reflect your unique brand. From materials to colors,
+                we offer a comprehensive range of possibilities.
+              </p>
+            </div>
+            <!--end fourcol -->
+
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade last">
+              <!-- <span class="circle_icons"
+                ><i class="con icon-settings-streamline-2"></i
+              ></span> -->
+              <h4>TRANSPARENT PRICING</h4>
+              <p>
+                We believe in clarity. There are no hidden fees in our pricing,
+                allowing you to plan your budget confidently.
+              </p>
+            </div>
+            <!--end fourcol -->
+          </div>
+          <!--end row -->
+
+          <!--begin row -->
+          <div class="row">
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade">
+              <!-- <span class="circle_icons"
+                ><i class="icon icon-speech-streamline-talk-user"></i
+              ></span> -->
+              <h4>CUSTOMER SUPPORT</h4>
+              <p>
+                Our customer support team is committed to guiding you through
+                every step by step process for ensuring a seamless experience.
+              </p>
+            </div>
+            <!--end fourcol -->
+
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade">
+              <!-- <span class="circle_icons"
+                ><i class="icon icon-streamline-umbrella-weather"></i
+              ></span> -->
+              <h4>GLOBAL REACH</h4>
+              <p>
+                We cater to customers worldwide, offering shipping options that
+                ensure your custom patches reach you wherever you are.
+              </p>
+            </div>
+            <!--end fourcol -->
+
+            <!--begin fourcol -->
+            <div class="fourcol home_services bounce_fade last">
+              <!-- <span class="circle_icons"
+                ><i class="icon icon-caddie-shop-shopping-streamline"></i
+              ></span> -->
+              <h4>CUSTOMER SATISFACTION</h4>
+              <p>
+                We have earned the trust and loyalty of countless customers.Our
+                commitment is to meet your expectations.
+              </p>
+            </div>
+            <!--end fourcol -->
+          </div>
+          <!--end row -->
+
+          <!--begin row -->
+          <div class="row align_center">
+            <!--begin twelvecol -->
+            <div class="twelvecol">
+              <a href="#" class="big_button big_top_margin"
+                ><i class="icon icon-cloud-download"></i> &nbsp; Download Terms
+                &amp; Conditions</a
+              >
+
+              <a href="#" class="big_button"
+                ><i class="icon icon-mail-forward"></i> &nbsp; Request Free
+                Quote Today!</a
+              >
+            </div>
+            <!--end twelvecol -->
+          </div>
+          <!--end row -->
+        </div>
+        <!--end section_box -->
+      </section>
+      <!--end section_wrapper -->
+
+      <!--begin section_wrapper -->
+      <section class="section_wrapper grey_bg">
+        <!--begin section_box -->
+        <div class="section_box">
+          <!--begin row -->
+          <div class="row">
+            <!--begin sixcol -->
+            <div class="sixcol left_fade">
+              <video
+                src="lib/images/videos/intro-video-three.mp4"
+                autoplay
+                muted
+                loop
+                preload="auto"
+                style="
+                  top: 0;
+                  left: 0;
+                  width: 100%; /* Full viewport width */
+                  height: 100%; /* Full viewport height */
+                  object-fit: cover; /* Ensure the video covers the area without distortion */
+                  border-radius: 0; /* No rounded corners; adjust if needed */
+                  border-radius: 10px;
+                  filter: brightness(0.9) contrast(1); /* Optional: Adjust visual effects */
+                "
+              ></video>
+            </div>
+            <!--end sixcol -->
+
+            <!--begin sixcol -->
+            <div class="sixcol right_fade last">
+              <h3>Which product do we sell?</h3>
+              <p>
+                We offer a variety of custom products for business owners. Our
+                range includes custom-made patches to your designs or logos,
+                custom-printed t-shirts, leather jackets, personalised wallets
+                (with your name on them), custom caps, and much more.
+              </p>
+
+              <!--begin featured_dropcap -->
+              <div class="featured_dropcap">
+                <!-- <span class="dropcaps_icon"
+                  ><i class="icon icon-design-pencil-rule-streamline"></i
+                ></span> -->
+                <p>
+                  We can assist you in launching your brand with our
+                  customisable products.
+                </p>
+              </div>
+              <!--end featured_dropcap -->
+
+              <!--begin featured_dropcap -->
+              <div class="featured_dropcap">
+                <!-- <span class="dropcaps_icon"
+                  ><i class="icon icon-speech-streamline-talk-user"></i
+                ></span> -->
+                <p>
+                  Whether you're running a shop or any clothing business, we can
+                  supply products to your business requirements.
+                </p>
+              </div>
+              <!--end featured_dropcap -->
+
+              <!--begin featured_dropcap -->
+              <div class="featured_dropcap">
+                <!-- <span class="dropcaps_icon"
+                  ><i class="icon icon-streamline-umbrella-weather"></i
+                ></span> -->
+                <p>
+                  If you're part of a charity or organisation hosting an event
+                  and need caps and clothes for your company, we've got you
+                  covered.
+                </p>
+              </div>
+              <!--end featured_dropcap -->
+            </div>
+            <!--end sixcol -->
+          </div>
+          <!--end row -->
+        </div>
+        <!--end section_box -->
+      </section>
+      <!--end section_wrapper -->
+
+      <!--begin section_wrapper -->
+      <section class="section_wrapper">
+        <!--begin section_box -->
+        <div class="section_box">
+          <!--begin row -->
+          <div class="row">
+            <!--begin sixcol -->
+            <div class="sixcol left_fade">
+              <h3>About Our Company</h3>
+
+              <p>
+                Pellentesque vitae metus suscipit purus pharetra lacinia. In ac
+                accumsan tellus, justo praesent lorem, tincidunt sed mauris vel,
+                lobortis tempor lorem. Pellentesque ac lacus iaculis erat
+                tristique interdum at vitae augue. Morbi erat tellus, vitae
+                euismod luctus.
+              </p>
+
+              <!--begin fourcol -->
+              <div class="fourcol">
+                <img
+                  src="lib/images/company.jpg"
+                  alt="Picture"
+                  class="img_rounded"
+                />
+              </div>
+              <!--end fourcol -->
+
+              <!--begin eightcol -->
+              <div class="eightcol last">
+                <p class="small_margins">
+                  <span class="bold">Howdy stranger!</span> Metus suscipit purus
+                  pharetra, lacinia intris actris accumsan tellus, praesent
+                  justo tincidunt.
+                </p>
+
+                <p class="small_margins">
+                  Lorem, tincidunt sed mauris vel, lobortis tempor lorem.
+                  Pellentesque ac lacus iaculis erat esa vitae euismod.
+                </p>
+              </div>
+              <!--end eightcol -->
+            </div>
+            <!--end sixcol -->
+
+            <!--begin sixcol -->
+            <div class="sixcol right_fade last">
+              <h3>Clients Testimonials</h3>
+
+              <!--begin testimonials_item -->
+              <div class="testimonials_item">
+                <img
+                  src="lib/images/photos/testimonials1.jpg"
+                  alt="Image"
+                  class="img_testimonials img_circle"
+                />
+
+                <p>
+                  Accumsan tellus, justo praesent lorem, tincidunt sed mauris
+                  vel, liboris tempor lorem. Pellentesque ac lacus iaculis erat
+                  tristique interdum at vitae augue. Morbi erat tellus, vitae
+                  euismod luctus.
+                </p>
+
+                <p class="testimonials_name">
+                  Richard J. Smith -
+                  <span class="green">CEO Fifteen Agency</span>
+                </p>
+              </div>
+              <!--end testimonials_item -->
+
+              <!--begin testimonials_item -->
+              <div class="testimonials_item">
+                <img
+                  src="lib/images/photos/testimonials2.jpg"
+                  alt="Image"
+                  class="img_testimonials img_circle"
+                />
+
+                <p>
+                  Accumsan tellus, justo praesent lorem, tincidunt sed mauris
+                  vel, liboris tempor lorem. Pellentesque ac lacus iaculis erat
+                  tristique interdum at vitae augue. Morbi erat tellus, vitae
+                  euismod luctus.
+                </p>
+
+                <p class="testimonials_name">
+                  Natasha Stevenson -
+                  <span class="green">Writter eMagazine</span>
+                </p>
+              </div>
+              <!--end testimonials_item -->
+            </div>
+            <!--end sixcol -->
+          </div>
+          <!--end row -->
+        </div>
+        <!--end section_box -->
+
+        <!--begin section_box -->
+        <div class="section_box partners_margins">
+          <!--begin row -->
+          <div class="row">
+            <ul class="partners up_fade">
+              <li class="first">
+                <img src="lib/images/partner1.png" alt="Logo" />
+              </li>
+              <li><img src="lib/images/partner2.png" alt="Logo" /></li>
+              <li><img src="lib/images/partner4.png" alt="Logo" /></li>
+              <li><img src="lib/images/partner5.png" alt="Logo" /></li>
+              <li><img src="lib/images/partner3.png" alt="Logo" /></li>
+              <li class="last">
+                <img src="lib/images/partner6.png" alt="Logo" />
+              </li>
+            </ul>
+          </div>
+          <!--end row -->
+        </div>
+        <!--end section_box -->
+      </section>
+      <!--end section_wrapper -->
+
+      <!--begin section_wrapper -->
+      <section class="section_wrapper grey_bg">
+        <!--begin section_box -->
+        <div class="section_box align_center">
+          <h2>Subscribe today for latest offers!</h2>
+
+          <p>
+            Threads of creativity weave through every stitch, stories of
+            artistry and passion.
+          </p>
+
+          <!--begin newsletter_wrapper -->
+          <div class="newsletter_wrapper bounce_fade">
+            <!--begin success_box -->
+            <p class="newsletter_success_box" style="display: none">
+              We received your message and you'll hear from us soon. Thank You!
+            </p>
+            <!--end success_box -->
+
+            <!--begin newsletter-form -->
+            <form
+              id="newsletter-form"
+              class="newsletter_form"
+              action="https://demo.epic-webdesign.com/tf-marketing/v3/newsletter.php"
+              method="post"
+            >
+              <input
+                id="email_newsletter"
+                type="email"
+                name="nf_email"
+                placeholder="Your Email Address"
+              />
+              <input
+                type="submit"
+                value="Subscribe!"
+                id="submit-button-newsletter"
+              />
+            </form>
+            <!--end newsletter-form -->
+          </div>
+          <!--end newsletter_wrapper -->
+        </div>
+        <!--end section_box -->
+      </section>
+      <!--end section_wrapper -->
+
+      <!--begin footer -->
+      <footer id="footer">
+        <!--begin footer_box -->
+        <div id="footer_box">
+          <!--begin row -->
+          <div class="row">
+            <!--begin twelvecol -->
+            <div class="twelvecol up_fade">
+              <!--begin footer_social -->
+              <ul class="footer_social fade_in">
+                <li>
+                  <a href="#">
+                    <i class="icon icon-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-pinterest"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-skype"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-dribble"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon-github"></i>
+                  </a>
+                </li>
+              </ul>
+              <!--end footer_social -->
+
+              <!--begin copyright -->
+              <div class="copyright">
+                <p>Copyright © Custom Patches &amp; Wear</p>
+              </div>
+              <!--end copyright -->
+            </div>
+            <!--end twelvecol -->
+          </div>
+          <!--end row -->
+        </div>
+        <!--end footer_box -->
+      </footer>
+      <!--end footer -->
+    </div>
+    <!--! end of #container -->
+
+    <!-- scripts concatenated and minified via ant build script-->
+    <script src="lib/js/modernizr-2.6.1.min.js"></script>
+    <script src="lib/js/conditional.js"></script>
+    <script src="lib/js/plugins.js"></script>
+    <script src="lib/js/jquery.inview.html"></script>
+    <script src="lib/js/retina.js"></script>
+    <script src="lib/js/bp-script.js"></script>
+
+    <!-- begin jquery.sticky script-->
+    <script type="text/javascript" src="lib/js/jquery.sticky.js"></script>
+    <script>
+      $(window).load(function () {
+        $("#header_wrapper").sticky({
+          topSpacing: 0
+        });
+      });
+    </script>
+    <!-- end jquery.sticky script-->
+
+    <!-- begin scrollTo script-->
+    <script src="lib/js/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript">
+      (function ($) {
+        $(document).ready(function () {
+          /* This code is executed after the DOM has been completely loaded */
+
+          $("a.scrool").click(function (e) {
+            var full_url = this.href;
+            var parts = full_url.split("#");
+            var trgt = parts[1];
+            var target_offset = $("#" + trgt).offset();
+            var target_top = target_offset.top;
+
+            $("html,body").animate(
+              {
+                scrollTop: target_top - 0
+              },
+              1000
+            );
+            return false;
+          });
+        });
+      })(jQuery);
+    </script>
+    <!-- end menu scrollTo script-->
+
+    <!--begin shrink header script -->
+    <script>
+      $(function () {
+        var shrinkHeader = 705;
+        $(window).scroll(function () {
+          var scroll = getCurrentScroll();
+          if (scroll >= shrinkHeader) {
+            $("#header_wrapper").addClass("shrink");
+          } else {
+            $("#header_wrapper").removeClass("shrink");
+          }
+        });
+
+        function getCurrentScroll() {
+          return window.pageYOffset;
+        }
+      });
+    </script>
+    <!--end shrink header script -->
+
+    <!--begin fitvids script -->
+    <script src="lib/js/jquery.fitvids.js"></script>
+    <script>
+      // Basic FitVids Test
+      $("#container").fitVids();
+    </script>
+    <!--end fitvids script -->
+
+    <!-- begin background slideshow script-->
+    <script src="lib/js/jquery.vegas.js"></script>
+    <script>
+      $(function () {
+        $.vegas("slideshow", {
+          backgrounds: [
+            {
+              src: "lib/images/photos/bg1.jpg",
+              fade: 1500
+            },
+            {
+              src: "lib/images/photos/bg2.jpg",
+              fade: 1500
+            }
+          ],
+          loading: false
+        });
+      });
+    </script>
+  </body>
+</html>
